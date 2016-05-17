@@ -7,7 +7,7 @@ RUN apk update && \
     curl \
     bash \
     git \
-    python \
+    python rsync \
     make gcc g++ \
     bash-completion && \
   rm -rf /var/cache/apk/*
